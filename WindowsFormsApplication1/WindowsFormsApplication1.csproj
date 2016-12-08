@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6B55FA1D-0151-4E3E-BFCF-5B4619F737BF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WindowsFormsApplication1</RootNamespace>
+    <AssemblyName>WindowsFormsApplication1</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddCourseToTeacher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddCourseToTeacher.Designer.cs" >
+      <DependentUpon>AddCourseToTeacher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddEmployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddEmployee.Designer.cs"  >
+      <DependentUpon>AddEmployee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddEventPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddEventPage.Designer.cs">
+      <DependentUpon>AddEventPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddExam.cs">
+      <SubType>Form</SubType>
+    </Compile>
+	<Compile Include="AddExam.Designer.cs" >
+      <DependentUpon>AddExam.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddTeacher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddTeacher.Designer.cs"  >
+      <DependentUpon>AddTeacher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DisplayAndMarkExamParticipators.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DisplayAndMarkExamParticipators.Designer.cs">
+      <DependentUpon>DisplayAndMarkExamParticipators.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EmployeePage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmployeePage.Designer.cs">
+      <DependentUpon>EmployeePage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EventPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EventPage.Designer.cs">
+      <DependentUpon>EventPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExamPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExamPage.Designer.cs">
+      <DependentUpon>ExamPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FinancialPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FinancialPage.Designer.cs">
+      <DependentUpon>FinancialPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FirstGrade.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FirstGrade.Designer.cs">
+      <DependentUpon>FirstGrade.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GradesPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GradesPage.Designer.cs">
+      <DependentUpon>GradesPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LowMoneyPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LowMoneyPage.Designer.cs">
+      <DependentUpon>LowMoneyPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainPage.Designer.cs">
+      <DependentUpon>MainPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SecondGrade.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SecondGrade.Designer.cs">
+      <DependentUpon>SecondGrade.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TeachersPage.cs">
+      <SubType>Form</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="TeachersPage.Designer.cs">
+      <DependentUpon>TeachersPage.cs</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ThirdGrade.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ThirdGrade.Designer.cs">
+      <DependentUpon>ThirdGrade.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AddCourseToTeacher.resx" />
+    <EmbeddedResource Include="AddEmployee.resx" />
+    <EmbeddedResource Include="AddEventPage.resx">
+      <DependentUpon>AddEventPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddExam.resx" />
+    <EmbeddedResource Include="AddTeacher.resx" />
+    <EmbeddedResource Include="DisplayAndMarkExamParticipators.resx" />
+    <EmbeddedResource Include="EmployeePage.resx">
+      <DependentUpon>EmployeePage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EventPage.resx">
+      <DependentUpon>EventPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExamPage.resx">
+      <DependentUpon>ExamPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FinancialPage.resx">
+      <DependentUpon>FinancialPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FirstGrade.resx">
+      <DependentUpon>FirstGrade.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GradesPage.resx">
+      <DependentUpon>GradesPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LowMoneyPage.resx">
+      <DependentUpon>LowMoneyPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainPage.resx">
+      <DependentUpon>MainPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="SecondGrade.resx">
+      <DependentUpon>SecondGrade.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TeachersPage.resx">
+      <DependentUpon>TeachersPage.cs</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ThirdGrade.resx">
+      <DependentUpon>ThirdGrade.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
